@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Autodesk_Cache_File>
+  <cacheType Type="OneFile" Format="mcx"/>
+  <time Range="250-250000"/>
+  <cacheTimePerFrame TimePerFrame="250"/>
+  <cacheVersion Version="2.0"/>
+  <extra>D:/Pere_Ramis/Maya_Cosas/Pere_Ramis_Maya/scenes/Animacion de elementos 2D y 3D/SERGIO/P09_Animacion_Banderas/Banderas_v5.mb</extra>
+  <extra>maya 2022</extra>
+  <extra>primero</extra>
+  <Channels>
+    <channel0 ChannelName="bandera_render|outputCloth3" ChannelType="FloatVectorArray" ChannelInterpretation="positions" SamplingType="Regular" SamplingRate="250" StartTime="250" EndTime="250000"/>
+  </Channels>
+</Autodesk_Cache_File>
