@@ -1,0 +1,205 @@
+# XGen Palette File
+#
+# Version:  D:/Archivos de programa (x86)/Maya/Maya2022/plug-ins/xgen/
+# Author:   Pere
+# Date:     Mon Jun 13 18:18:49 2022
+
+FileVersion 18
+
+Palette
+	name			Adam_xGen_1
+	parent			
+	xgDataPath		${PROJECT}xgen/collections/Adam_xGen_1
+	xgProjectPath		D:/Users/Pere/Documents/GitHub/Maya_Cosas/Pere_Ramis_Maya/
+	xgDogTag		
+	endAttrs
+
+Description
+	name			Adam_Collection
+	flipNormals		false
+	strayPercentage		0.0
+	lodFlag			false
+	averageWidth		1.0
+	pixelCullSize		0.0
+	pixelFadeSize		20.0
+	cullFade		0.1
+	minDensity		0.01
+	cullWidthRatio		0.01
+	maxWidthRatio		20.0
+	groom			
+	descriptionId		0
+	xgDataPath		${PROJECT}xgen/collections/Adam_xGen_1/
+	xgProjectPath		D:/Users/Pere/Documents/GitHub/Maya_Cosas/Pere_Ramis_Maya/
+	endAttrs
+
+RendermanRenderer
+	percent			100.0
+	startPercent		0.0
+	inCameraOnly		false
+	inCameraMargin		0.0
+	length_XP		true
+	width_XP		true
+	T_XP			false
+	stray_XP		false
+	id_XP			false
+	descid_XP		false
+	ri_XP			true
+	rf_XP			true
+	u_XS			true
+	v_XS			true
+	faceid_XS		true
+	geomid_XS		false
+	geomName_XS		true
+	P_XS			true
+	Pref_XS			false
+	Pg_XS			false
+	Prefg_XS		false
+	N_XS			true
+	Ng_XS			false
+	Nref_XS			false
+	Nrefg_XS		false
+	dPdu_XS			true
+	dPduref_XS		false
+	dPdug_XS		false
+	dPdurefg_XS		false
+	dPdv_XS			true
+	dPdvref_XS		false
+	dPdvg_XS		false
+	dPdvrefg_XS		false
+	renderer		None
+	renderMethod		2
+	draMode			0
+	primitiveBound		1.0
+	custom__arnold_rendermode	0
+	custom__arnold_curveMode	0
+	custom__arnold_minPixelWidth	0.0
+	custom__arnold_motion_blur	0
+	custom__arnold_motion_blur_mode	1
+	custom__arnold_motion_blur_steps	2
+	custom__arnold_motion_blur_factor	0.5
+	custom__arnold_useAuxRenderPatch	0
+	custom__arnold_auxRenderPatch	0
+	custom__arnold_multithreading	0
+	endAttrs
+
+SplinePrimitive
+	_patchNames		
+	length			$a=1.0000;#0.05,5.0\n$a
+	width			$a=0.1000;#0.005,0.5\n$a
+	depth			$a=1.0;#0.05,5.0\n$a
+	offU			$a=0.0000;#-2.0,2.0\n$a
+	offV			$a=0.0000;#-2.0,2.0\n$a
+	offN			$a=0.0000;#-180.0,180.0\n$a
+	aboutN			$a=0.0000;#-180.0,180.0\n$a
+	regionMap		${DESC}/Region/
+	regionMask		0.0
+	iMethod			1
+	useCache		false
+	liveMode		true
+	_wireNames		
+	cacheFileName		${DESC}/guides.abc
+	attrCVCount		3
+	bendParam[0]		$a=0.5000;#0.0,1.0\n$a
+	bendU[0]		$a=0.0000;#-2.0,2.0\n$a
+	bendV[0]		$a=0.0000;#-2.0,2.0\n$a
+	fxCVCount		5
+	uniformCVs		true
+	taper			$a=0.0000;#-1.0,1.0\n$a
+	taperStart		$a=0.0000;#0.0,1.0\n$a
+	displayWidth		true
+	faceCamera		true
+	tubeShade		true
+	tubes			
+	guideSpacing		1.0
+	guideMask		1.0
+	cutParam		1.0
+	texelsPerUnit		10.0
+	CVFrequency		1.0
+	widthRamp		rampUI(0.0,0.12337662337662338,1:0.2889273356401384,0.09090909090909091,1:0.6262975778546713,0.07792207792207792,1:1.0,0.0,1)
+	endAttrs
+
+RandomGenerator
+	displacement		$a=0.0000;#-1.0,1.0\n$a
+	vectorDisplacement	0
+	bump			$a=0.0000;#-1.0,1.0\n$a
+	offset			$a=0.0000;#-1.0,1.0\n$a
+	cullFlag		false
+	cullBackface		false
+	cullFrustrum		false
+	cullAngleBF		0.0
+	cullAngleF		0.0
+	cullExpr		$a=0.0000;#0.0,1.0\n$a
+	density			100.0
+	mask			$a=map('${DESC}/paintmaps/Adam_xGen_1');#3dpaint,5.0\n$a\n
+	dcFlag			false
+	scFlag			true
+	usePoints		false
+	pointDir		${DESC}/Points/
+	ptLength		1.0
+	endAttrs
+
+GLRenderer
+	percent			100.0
+	startPercent		0.0
+	inCameraOnly		true
+	inCameraMargin		0.0
+	patchNames		false
+	faceIds			false
+	primIDs			false
+	primIDsAt		1.0
+	vertices		false
+	poly			false
+	culled			false
+	unitCube		false
+	color			$a=[0,0,0];#color\n$a
+	guideColor		$a=[1.0,0.4313725,0.0];#color\n$a
+	TEXCOORD3		[ $cWidth, 0, 0 ]  # red channel reserved by XGen
+	TEXCOORD4		
+	TEXCOORD5		
+	TEXCOORD6		
+	TEXCOORD7		
+	splineSegments		2
+	primNumLimit		100000000
+	endAttrs
+
+MapTextures
+	RandomGenerator	mask	D:/Users/Pere/Documents/GitHub/Maya_Cosas/Pere_Ramis_Maya/sourceimages/3dPaintTextures/xGen_V3/polySurfaceShape23_Adam_xGen_1_Adam_Collection_Adam_xGen_1.iff
+	endAttrs
+
+	Active	SplinePrimitive
+	Active	RandomGenerator
+	Active	RendermanRenderer
+	Preview	GLRenderer
+
+Patches	Adam_Collection	3
+Patch	Subd
+	name		polySurface2
+	faceIds		300	 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250 251 252 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 269 270 271 272 273 274 275 276 277 278 279 280 281 282 283 284 285 286 287 288 289 290 291 292 293 294 295 296 297 298 299
+	animCurves	0	
+Guides	Spline	3
+	id			1
+	loc			5.4965000599622726e-02 4.0670000016689301e-02 288
+	blend			0.0000000000000000e+00
+	interp			2.4402380913991486e+00:2.4402280913991485e+00:1.3358619508817560e-03
+	CVs			4
+	1.6375789613221059e-15 3.3300000000000107e-01 -1.1275702593849246e-17
+	7.8827906200052367e-02 6.2402037917370645e-01 -1.9534311704955259e-02
+	3.9555345573640899e-01 9.2394932963335985e-01 -3.5668469392281306e-02
+	id			2
+	loc			9.9425899982452393e-01 0.0000000000000000e+00 288
+	blend			0.0000000000000000e+00
+	interp			2.4402380913991486e+00:2.4402280913991485e+00:2.0011023094671878e+00:2.4069445110328584e+00:3.9999999999999996e+00
+	CVs			4
+	-4.5241588253475129e-15 3.3299999999999541e-01 -1.0391456445197410e-23
+	-8.8262730457699945e-15 6.6699999999999182e-01 -2.0162527430980050e-23
+	7.4384942649885488e-15 1.0000000000000067e+00 1.7163997710475324e-23
+	id			9
+	loc			1.0000000000000000e+00 7.9589200019836426e-01 152
+	blend			0.0000000000000000e+00
+	interp			2.4069545110328585e+00:2.4069445110328584e+00:1.0000000000000000e+00
+	CVs			4
+	-1.1790542278368702e-09 3.2588695856646605e-01 -7.0029664554857568e-02
+	-2.3581824313434779e-09 6.5179436402041180e-01 -1.4006372292974267e-01
+	-3.5372366587456357e-09 9.7768132258690743e-01 -2.1009338748453904e-01
+endObject
+endPatches
